@@ -1,0 +1,53 @@
+  header {
+    text-align: center;
+  }
+  .titulo{
+    color: #ff9100;
+    font-family: Arial, sans-serif;}
+
+    #conteiner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 10vh;
+      color: rgb(0, 0, 0); 
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+      }
+
+    .clicavel {
+      margin-right: 30px;
+      cursor: pointer;
+      font-size: 17px;
+      padding: 2px 5px;
+      border-radius: 4px;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .clicavel:hover {
+      background-color: #ecbe81;
+      transform: scale(1.05);
+    }
+
+    #quadradoExibicao {
+      border: 1px solid #5c5c5c;
+      padding: 10px;
+      width: 200px;
+      height: 100px;
+      margin-top: 10px;
+    }
+
+    #textoExibido {
+      max-width: 50%;
+      margin: 20px auto;
+      max-width: 50%;
+      margin: 20px auto;
+      font-size: 18px;
+      font-family: Arial, sans-serif;
+      color: #b67d33;
+    }
+
+    .clicavel.selecionado {
+      outline: 1px solid #ff9100;
+      background-color: #ff9100;
+      transform: scale(1.05);
+    }
